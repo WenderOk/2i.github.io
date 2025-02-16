@@ -1,0 +1,406 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Geologica";
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+    isolation: isolate;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #ffffff;
+}
+p {
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+}
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 1184px;
+    height: 48px;
+    flex: none;
+}
+.header__menu__element{
+    text-decoration: none;
+    color: black;
+    transition: color 0.25s;
+}
+.header__menu__phone-icon{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 4px;
+    width: 209px;
+    height: 48px;
+    border: 1px solid #222222;
+    border-radius: 32px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    text-decoration: none;
+    color: black;
+    transition: color 0.25s;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 140px 320px;
+    gap: 32px;
+    width: 1920px;
+    height: 328px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
+.cover__container__h1{
+    width: 1280px;
+    height: 160px;
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 80px;
+    color: #222222;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.cover__container_phone_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 225px;
+    height: 56px;
+    background: #0044FF;
+    border-radius: 32px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.25s;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1920px;
+    height: 672px;
+}
+ .footer__contacts{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 240px 320px;
+    gap: 56px;
+    width: 1920px;
+    height: 592px;
+    background: #141414;
+    border-bottom: 1px solid #2E2E2E;
+    flex: none;
+    align-self: stretch;
+    transition: color 0.25s;
+}
+
+.footer__contacts__group1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 427.5px;
+    height: 112px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.footer__contacts__group2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 427.5px;
+    height: 112px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.footer__contacts__mail-and-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 10px;
+    width: 313px;
+    height: 120px;
+}
+
+.footer__contacts__group1__p{
+    width: 427.5px;
+    height: 24px;
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.footer__contacts__group2__p{
+    width: 427.5px;
+    height: 24px;
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    
+}
+.footer__contacts__group1__social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 103px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.footer__contacts__group2__social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 103px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.footer__contacts__group1__phone-number{
+    width: 265px;
+    height: 40px;
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: color 0.25s;
+}
+.footer__contacts__group2__phone-number{
+    width: 265px;
+    height: 40px;
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: color 0.25s;
+}
+.footer__contacts__group__social-media__telegram{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 103px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: color 0.25s;
+}
+.footer__contacts__group__social-media__whatsapp{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 113px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    transition: color 0.25s;
+}
+.footer__contacts__mail-and-time__mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    margin: 0;
+    width: 134px;
+    height: 24px;
+    color: #ffffff;
+    transition: 0.15s linear;
+    transition: color 0.25s;
+}
+.footer__contacts__mail-and-time__time{
+    margin: 0 auto;
+    width: 313px;
+    height: 24px;
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'ss01' on;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    transition: color 0.25s;
+}
+.footer__copyrights{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    width: 1920px;
+    height: 80px;
+    background: #141414;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.footer__copyrights__p{
+    margin: 0 auto;
+    width: 223px;
+    height: 16px;
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 17%;
+}
+.footer__copyrights__p2{
+    margin: 0 auto;
+    width: 223px;
+    height: 16px;
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 21%;
+}
+.header__menu__element:hover{
+    color: #0044FF;
+}
+.footer__contacts__group1__phone-number:hover{
+    color: #0044FF;
+}
+.footer__contacts__group2__phone-number:hover{
+    color: #0044FF;
+}
+.footer__contacts__group__social-media__telegram:hover{
+    color: #0044FF;
+}
+.footer__contacts__group__social-media__whatsapp:hover{
+    color: #0044FF;
+}
+.header__menu__phone-icon:hover{
+    color: #0044FF;
+    border-color: #0044FF;
+}
+.cover__container_phone_icon:hover{
+    background-color: #3369FF;
+}
+.footer__contacts__mail-and-time__mail:hover{
+    color: #0044FF;
+}
+
+
+
+
+
+
+
