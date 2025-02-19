@@ -224,6 +224,11 @@ p {
     order: 0;
     flex-grow: 0;
 }
+.num_ph{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.25s;
+}
 .footer__contacts__group1__phone-number{
     width: 265px;
     height: 40px;
@@ -312,6 +317,7 @@ p {
     color: #ffffff;
     transition: 0.15s linear;
     transition: color 0.25s;
+    text-decoration: none;
 }
 .footer__contacts__mail-and-time__time{
     margin: 0 auto;
@@ -398,7 +404,9 @@ p {
 .footer__contacts__mail-and-time__mail:hover{
     color: #0044FF;
 }
-
+.num_ph:hover{
+    color: #0044FF;
+}
 
 
 
